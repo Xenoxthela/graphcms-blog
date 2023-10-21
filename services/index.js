@@ -8,27 +8,27 @@ export const getPosts = async () => {
       postsConnection {
         edges {
           cursor
-          node {
-            author {
-              bio
-              name
-              id
-              photo {
+            node {
+              author {
+                bio
+                name
+                id
+                photo {
+                  url
+                }
+              }
+              createdAt
+              slug
+              title
+              excerpt
+              featuredImage {
                 url
               }
+              categories {
+                name
+                slug
+              }
             }
-            createdAt
-            slug
-            title
-            excerpt
-            featuredImage {
-              url
-            }
-            categories {
-              name
-              slug
-            }
-          }
         }
       }
     }

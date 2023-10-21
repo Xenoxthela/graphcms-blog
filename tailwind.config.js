@@ -3,6 +3,11 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      colors: {
+        cyan: {
+          600:  '#0284c7',
+        },
+      },
       spacing: {
         '2/3': '66.666667%',
       },
