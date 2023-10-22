@@ -18,7 +18,7 @@ const Header = () => {
         <div className="md:float-left block" style={{ height: '200px', overflow: 'hidden' }}>
           <Link href="/">
             <img
-              src='/peoples_money_logo.png'
+              src="/peoples_money_logo.png"
               alt="Peoples Money Logo"
               style={{ objectFit: 'cover', width: '400px', height: '100%' }}
             />
