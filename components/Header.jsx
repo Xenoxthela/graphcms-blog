@@ -13,12 +13,19 @@ const Header = () => {
   }, []);
 
   return (
-    <div className="container mx-auto px-10 mb-8">
-      <div className="border-b w-full inline-block border-blue-400 py-8">
-        <div className="md:float-left block">
+    <div className="container bg-black mx-auto px-6 mb-3">
+      <div className="border-b w-full inline-block border-gray-700 py-4">
+        <div className="md:float-left block" style={{ height: '200px', overflow: 'hidden' }}>
           <Link href="/">
-            <span className="cursor-pointer font-bold text-4xl text-white">Graph CMS</span>
+            <img
+              src='/peoples_money_logo.png'
+              alt="Peoples Money Logo"
+              style={{ objectFit: 'cover', width: '400px', height: '100%' }}
+            />
           </Link>
+          {/* <Link href="/">
+            <span className="cursor-pointer font-bold text-4xl text-white">The Peoples Money</span>
+          </Link> */}
         </div>
         <div className="hidden md:float-left md:contents">
           {categories.map((category, index) => (

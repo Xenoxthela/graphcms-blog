@@ -5,8 +5,11 @@ module.exports = {
     extend: {
       colors: {
         cyan: {
-          600:  '#0284c7',
+          600:  '#06b6d4',
         },
+        gray: {
+          700: '#171717'
+        }
       },
       spacing: {
         '2/3': '66.666667%',
