@@ -78,5 +78,7 @@ module.exports = {
         ],
       },
     ],
+    'quotes': 0,  // Regel für Anführungszeichen deaktivieren
+    'operator-linebreak': 0,  // Regel für die Platzierung von Operatoren deaktivieren
   },
 };
